@@ -1,0 +1,49 @@
+.wrapper {
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 350px;
+}
+
+.taskBlock {
+  margin-bottom: 30px;
+}
+
+.addButton {
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.addButton:hover {
+  cursor: pointer;
+}
+
+.title {
+  border-radius: 15px;
+  border: 1px solid #000;
+  background: #f0f0f0;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 350px;
+  box-sizing: border-box;
+}
+
+.title::placeholder {
+  font-weight: normal;
+}
+
+.description {
+  border-radius: 15px;
+  border: 1px solid #000;
+  background: #f0f0f0;
+  padding: 15px;
+  font-size: 20px;
+  height: 150px;
+  width: 350px;
+  box-sizing: border-box;
+  resize: none;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,25 @@
+.card {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 25px;
+}
+
+.taskDone {
+  text-decoration: line-through 5px greenyellow;
+  background: #f0f0f0;
+}
